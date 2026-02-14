@@ -1,0 +1,46 @@
+.techStark {
+    margin-top: 160px;
+    padding-left: 100px;
+}
+
+.techStark h2 {
+    font-weight: bold;
+    color: #138781;
+}
+
+.techStark hr {
+    border: none;
+    height: 1px;
+    background-color: #138781;
+    width: 400px;
+    margin: 10px auto;
+}
+
+.techStark .card {
+    cursor: pointer;
+}
+
+.techStark .card:hover{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    background-color: #138781;
+    transition: 1s;
+
+}
+
+.techStark .tech-icon {
+    font-size: 2rem;
+    margin-right: 10px;
+}
+
+/* ============MEDIA QURIES RESPONSIVE========== */
+
+@media(max-width: 600px) {
+    .techStark {
+        margin: 0;
+        padding: 0;
+        margin-top: 50px;
+    }
+    .techStark hr {
+        width: 290px;
+    }
+}

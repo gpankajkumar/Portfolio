@@ -1,0 +1,40 @@
+.education {
+    margin: 50px 0px;
+    margin-left: 100px;
+    padding-top: 100px;
+    background-color: rgba(128, 128, 128, 0.11);
+    
+}
+
+.education hr {
+    color: #138781;
+    width: 400px;
+    margin: 10px auto;
+}
+
+.education h2 {
+    color: #13bdb5;
+    font-weight: bold;
+}
+
+
+.education .vertical-timeline-element-subtitle {
+    color:green;
+}
+
+/* ============MEDIA QURIES RESPONSIVE========== */
+
+@media(max-width: 600px) {
+    .education {
+        margin: 0;
+        padding: 0;
+        margin-top: 50px;
+    }
+    .education h2 {
+        padding-top: 20px;
+    }
+    .education hr {
+        width: 290px;
+        margin-bottom: 10px;
+    }
+}
