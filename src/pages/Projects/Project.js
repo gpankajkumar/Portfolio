@@ -30,7 +30,7 @@ const Project = () => {
               <span className="card-notify-badge">Full Stack</span>
 
               <img
-                src="/WhatsApp Image 2026-02-11 at 9.34.48 PM.jpeg"
+                src="/15-Facts-About-Coding-Every-Kid-Should-Know.png"
                 alt="project1"
                 className="img-fluid"
               />
@@ -66,7 +66,7 @@ const Project = () => {
               <span className="card-notify-badge">eCommerce</span>
 
               <img
-               src="/WhatsApp Image 2026-02-11 at 9.34.48 PM.jpeg"
+               src="/15-Facts-About-Coding-Every-Kid-Should-Know.png"
                 alt="project1"
                 className="img-fluid"
               />
