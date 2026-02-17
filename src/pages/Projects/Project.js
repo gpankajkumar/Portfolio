@@ -1,6 +1,8 @@
 import React from "react";
 import "./Project.css";
-
+import img1 from '../../assets/download (1).png'
+import img2 from '../../assets/15-Facts-About-Coding-Every-Kid-Should-Know.png'
+import img3 from '../../assets/WhatsApp Image 2026-02-11 at 9.34.48 PM.jpeg'
 const Project = () => {
   return (
     <div className="container project" id="project">
@@ -11,15 +13,11 @@ const Project = () => {
 
       <p className="text-center pb-3">
         Here are my 3 recent projects with live link and source code <br />
-        
         Developed a fully functional, responsive single-page eCommerce web
-        application using React.js
-        Integrated Firebase Authentication for user login and sign-up features
-       
-        Used EJS to serve dynamic HTML content such as listing page
-        
-        Designed with modern UI principles and built for performance and
-        scalability
+        application using React.js Integrated Firebase Authentication for user
+        login and sign-up features Used EJS to serve dynamic HTML content such
+        as listing page Designed with modern UI principles and built for
+        performance and scalability
       </p>
 
       <div className="row" id="ads">
@@ -30,7 +28,7 @@ const Project = () => {
               <span className="card-notify-badge">Full Stack</span>
 
               <img
-                src="/15-Facts-About-Coding-Every-Kid-Should-Know.png"
+                src={img3}
                 alt="project1"
                 className="img-fluid"
               />
@@ -64,9 +62,8 @@ const Project = () => {
           <div className="card rounded">
             <div className="card-image">
               <span className="card-notify-badge">eCommerce</span>
-
               <img
-               src="/15-Facts-About-Coding-Every-Kid-Should-Know.png"
+                src={img2}
                 alt="project1"
                 className="img-fluid"
               />
@@ -102,7 +99,7 @@ const Project = () => {
               <span className="card-notify-badge">Fronted</span>
 
               <img
-                src="/15-Facts-About-Coding-Every-Kid-Should-Know.png"
+                src={img1}
                 alt="project1"
                 className="img-fluid"
               />
