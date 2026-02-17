@@ -10,7 +10,6 @@ import WorkExp from './pages/WorkExp/WorkExp';
 import Contact from './pages/Contacts/Contact';
 
 import ScrollToTop from "react-scroll-to-top";
-import Tada from "react-reveal/Tada";
 import { useTheme } from "./componets/context/ThemeContext";
 import MobileNav from "./componets/MobileNev/MobileNav";
 
@@ -35,9 +34,9 @@ function App() {
           <Contact />
         </div>
         <div className="footer pb-3 ms-3">
-            <Tada>
+            
           <h4 className="text-center">Made With 💝💗💝 &copy; 2026</h4>
-          </Tada>
+          
         </div>
       </div>
       <ScrollToTop
