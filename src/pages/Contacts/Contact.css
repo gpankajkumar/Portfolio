@@ -11,6 +11,7 @@
 
 .card2 {
     margin: 0px 40px;
+    padding-left: 10px;
 }
 
 .card1 .image {
@@ -91,11 +92,15 @@ button:focus {
 
     .contact .card2 {
         margin: 0;
+        font-size: 15px;
     }
 
     .contact .card2 h6 {
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+    .contact .card2 a {
+        padding-left: 10px;
     }
 }
