@@ -2,7 +2,7 @@
 import { useTheme } from "../../componets/context/ThemeContext";
 
 import Typewriter from "typewriter-effect";
-import Resume from "../../assets/docs/FullStack Developer.pdf";
+import Resume from "../../assets/docs/FullStack.pdf";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { BsFillSunFill } from "react-icons/bs";
 
@@ -24,7 +24,7 @@ function Home() {
           )}
         </div>
         <div className="container home-content">
-          <h2>Hi👋 I'm Pankaj</h2>
+          <h2>Hi👋 I'm Pankaj Gupta</h2>
           <h1>
             <Typewriter
               options={{
